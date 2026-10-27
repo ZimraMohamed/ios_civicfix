@@ -32,7 +32,7 @@ struct AdminReportsView: View {
         } message: {
             Text(vm.errorMessage ?? "")
         }
-    }
+    } 
 
     @ViewBuilder private var content: some View {
         if !vm.hasLoaded {
